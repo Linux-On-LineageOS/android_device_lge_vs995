@@ -40,3 +40,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # WiFi Calibration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal
+$(call inherit-product, vendor/lindroid/lindroid.mk)
